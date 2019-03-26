@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- first step to a responsive site -->
-    <title>HTML Skeleton</title>
+    <title>Air Quality</title>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -24,6 +24,30 @@
 
   <body>
     <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <h1> How polluted is your community?</h1>
+      <p> Use the dropdown to see where your neighborhood falls within the pollution spectrum</p>
+    </div>
+    <div>
+      <select class="filter">
+        <option value="item">Filter...</option>
+        <option value="low">Low</option>
+        <option value="moderate">Moderate</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+    <section id="low">
+      <div class="item low active">
+        <img src="img/green.png" />
+        <h3> Rockaway and Broad Channel</h3>
+      </div>
+      <div class="item low active">
+        <img src="img/green.png" />
+        <h3></h3>
+      </div>
+
+    </section>
+
 
     <!-- the jQuery library. You need this to be able to use jQuery ($) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

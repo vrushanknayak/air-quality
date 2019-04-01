@@ -10,7 +10,7 @@
     <title>Air Quality</title>
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Your styles should be called here -->
 
@@ -25,10 +25,10 @@
   <body>
     <!-- YOUR CONTENT GOES HERE -->
     <div class="container">
-      <h1> How polluted is your community?</h1>
+      <h1> How Polluted is your community?</h1>
       <p> Use the dropdown to see where your neighborhood falls within the pollution spectrum</p>
     </div>
-    <div>
+    <div class="box">
       <select class="filter">
         <option value="item">Filter...</option>
         <option value="low">Low</option>
@@ -198,6 +198,7 @@
         <h3>Central Harlem</h3>
       </div>
     </section>
+
     <section id="moderate">
       <div class="item moderate active">
         <img src="img/orange.png" />
@@ -251,15 +252,44 @@
         <img src="img/orange.png" />
         <h3>Upper East Side</h3>
       </div>
+    </section>
+
+    <section id="high">
+      <div class="item high active">
+        <img src="img/red.png" />
+        <h3>Greenwich Village and Soho</h3>
+      </div>
+      <div class="item high active">
+        <img src="img/red.png" />
+        <h3>Financial District</h3>
+      </div>
+      <div class="item high active">
+        <img src="img/red.png" />
+        <h3>Greenpoint and Williamsburg</h3>
+      </div>
+      <div class="item high active">
+        <img src="img/red.png" />
+        <h3>Clinton and Chelsea</h3>
+      </div>
+      <div class="item high active">
+        <img src="img/red.png" />
+        <h3>Stuyvesant Town and Turtle Bay</h3>
+      </div>
+      <div class="item high active">
+        <img src="img/red.png" />
+        <h3>Midtown</h3>
+      </div>
+    </section>
 
 
 
 
 
-      <!-- the jQuery library. You need this to be able to use jQuery ($) -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-      <!-- Your javascript should be called here -->
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
   </body>
 
 </html>

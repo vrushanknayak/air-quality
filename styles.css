@@ -48,11 +48,16 @@ p {
     padding: 5px 10px 0px 10px;
     display: block;
     border-style: solid;
+    border-width: .5px;
+    /*box-sizing: border-box;*/
+    border-color: black;
+    padding: 5px;
+    text-align: center;
+    display: none;
     border-width: 1px;
-    box-sizing: border-box;
 }
 
-.low {
+/*.low {
     border-color: green;
 }
 
@@ -62,11 +67,10 @@ p {
 
 .high {
     border-color: red;
-}
-
+}*/
 h3 {
-    font-family: 'Georgia', sans-serif;
-    font-weight: lighter;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
     padding: 0px;
     display: block;
     font-size: 0.96em;
@@ -81,14 +85,13 @@ h3 {
     padding: 30px;
 }
 
-.item {
+/*.item {
     min-height: 100px;
     padding: 5px;
     text-align: center;
     display: none;
-    border-width: 5px;
-}
-
+    border-width: 1px;
+}*/
 .item.active {
     display: block;
 }

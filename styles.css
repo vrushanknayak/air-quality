@@ -21,34 +21,75 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    font-family: 'Inherit', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     text-align: left;
-    padding: 20px 50px 0px 34px;
-    font-size: 3em;
+    padding: 10px 20px 0px 15px;
+    font-size: 2.5em;
     color: #46658C;
 }
 
-h3, p {
-    font-family: 'Helvetica', sans-serif;
+p {
+    font-family: 'Arial', sans-serif;
     font-weight: lighter;
-    padding: 25px;
-    font-size: 1.75em;
+    padding: 10px;
+    font-size: 1.50em;
+}
+
+.low {
+    width: 400px;
+    padding: 5px 10px 0px 10px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    box-sizing: border-box;
+}
+
+.moderate {
+    width: 400px;
+    padding: 5px 10px 0px 10px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    box-sizing: border-box;
+}
+
+.high {
+    width: 400px;
+    padding: 5px 10px 0px 10px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+    padding: 0px;
+    display: block;
+    font-size: 1.25em;
+    /*border-style: solid;
+    border-width: 2px;
+    /*border-color: black;*/
 }
 
 .container .h1 {
-    max-width: 980px;
+    max-width: 100px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px;
 }
 
 .item {
     width: 50%;
     float: left;
-    min-height: 500px;
+    min-height: 100px;
     padding: 5px;
     text-align: center;
     display: none;
@@ -61,7 +102,7 @@ h3, p {
 
 .item .img {
     display: block;
-    width: 80%;
+    width: 20%;
     border-style: solid;
     border-width: 1px;
     border-color: black;

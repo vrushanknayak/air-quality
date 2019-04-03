@@ -40,21 +40,37 @@ h2 {
     text-align: center;
 }
 
-p {
-    font-family: 'Georgia', sans-serif;
-    font-weight: lighter;
-    padding: 10px;
-    font-size: 1em;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
+figure {
+    margin: auto;
+    max-width: 900px;
+}
+
+/* by adding this, we make sure that the image is always seen as 100% even if browswer window gets narrower. */
+figure img {
     width: 100%;
+}
+
+figcaption {
+    color: gray;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    /* shortcut for the 4 lines of padding */
+    /* padding: 5px 0px 20px 0px; */
+}
+
+span {
+    font-weight: bold;
 }
 
 .byline {
     text-transform: uppercase;
-    padding: 10px;
-    font-size: 13px;
+}
+
+p {
+    font-family: 'Georgia', sans-serif;
+    font-weight: lighter;
 }
 
 #items {
@@ -91,6 +107,12 @@ h3 {
     /*border-style: solid;
     border-width: 2px;
     /*border-color: black;*/
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 .container .h1 {
